@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body {
+    background-color: rgb(226, 229, 232);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Radio Canada', sans-serif;
+    background-color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 1.7rem;
+    height: 65px;
+    align-items: center;
+    padding: 5px;
+    color: white;
+}
+
+.Hello img {
+    width: 60px;
+    align-items: center;
+    padding: 5px;
+}
+
+#Spotify {
+    font-weight: bolder;
+    padding: 0 10px;
+    font-size: 30px;
+}
+
+.Hello {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 5px;
+}
+
+.navitems {
+    padding: 0 30px;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.songbackground {
+    height: 50px;
+    width: 100px;
+
+}
+
+.container {
+    min-height: 72vh;
+    background-color: black;
+    color: black;
+    font-weight: bold;
+    width: 90vw;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(198, 252, 227);
+}
+
+.bottom {
+    position: sticky;
+    min-height: 100px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icons {
+    color: white;
+    margin-top: 20px;
+}
+
+.icons i {
+    cursor: pointer;
+    padding-right: 7px;
+}
+
+#myprogress {
+    width: 95vw;
+    cursor: pointer;
+}
+
+body {
+    background-color: rgb(156, 202, 249);
+}
+
+.songlist {
+    height: 7vh;
+    display: flex;
+    width: 75vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(182, 218, 243);
+    border-radius: 5rem;
+    color: black;
+    font-size: 1.1em;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1.2vh;
+    padding: 0.5em 1em;
+}
+
+.songlist img {
+    border-radius: 7rem;
+    height: 3.2rem;
+    width: 3.2rem;
+}
+
+.songlistcontainer {
+    margin-top: 3rem;
+}
+
+.gifinfo {
+    position: absolute;
+    left: 3vw;
+    color: rgb(195, 237, 250);
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.gifinfo img {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.songplay {
+    cursor: pointer;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sangeet</title>
+    <link rel="icon" type="image/png" href="spotify.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!---------------------------------------------- Start of Navigation ------------------------------------------------------->
+
+    <nav>
+        <ul class="Hello">
+            <li>
+                <a href="#">
+                    <img src="logo.png" alt="spotify">
+                </a>
+            </li>
+            <li id="Spotify">
+                <a href="#">Sangeet</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--------------------------x--------------------- End of Navigation --------------------------x------------------------------>
+
+    <!------------------------------------------------ Start of Main Page -------------------------------------------------------->
+
+    <div class="container">
+        <strong>
+            <div>
+                <h1>Songs Playlist!</h1>
+                <div class="songlistcontainer">
+                    <div class="songlist">
+                        <img src="covers/1.jpg" alt="1">
+                        <span class="songName">Jhoom - Ali Zafar</span>
+                        <span class="songitem">
+                            <i class="fa-solid fa-play songplay" id="0"></i>
+                        </span>
+                    </div>
+                    <div class="songlist">
+                        <img src="covers/2.jpg" alt="1">
+                        <span class="songName">Shayad - Arijit Singh</span>
+                        <span class="songitem">
+                            <i class="fa-solid fa-play songplay" id="1"></i>
+                        </span>
+                    </div>
+                    <div class="songlist">
+                        <img src="covers/3.jpg" alt="1">
+                        <span class="songName">Jaan Nisar - Arijit Singh</span>
+                        <span class="songitem">
+                            <i class="fa-solid fa-play songplay" id="2"></i>
+                        </span>
+                    </div>
+                    <div class="songlist">
+                        <img src="covers/4.jpg" alt="1">
+                        <span class="songName">Pasoori - Ali Sethi and Shae Gill</span>
+                        <span class="songitem">
+                            <i class="fa-solid fa-play songplay" id="3"></i>
+                        </span>
+                    </div>
+                    <div class="songlist">
+                        <img src="covers/5.jpg" alt="1">
+                        <span class="songName">Heat Waves - Glass Animals</span>
+                        <span class="songitem">
+                            <i class="fa-solid fa-play songplay" id="4"></i>
+                        </span>
+                    </div>
+                    <div class="songlist">
+                        <img src="covers/6.jpg" alt="1">
+                        <span class="songName">Stereo Hearts - Gym Class Heroes</span>
+                        <span class="songitem">
+                            <i class="fa-solid fa-play songplay" id="5"></i>
+                        </span>
+                    </div>
+                    <div class="songlist">
+                        <img src="covers/7.jpg" alt="1">
+                        <span class="songName">If You Want Love - NF</span>
+                        <span class="songitem">
+                            <i class="fa-solid fa-play songplay" id="6"></i>
+                        </span>
+                    </div>
+                    <div class="songlist">
+                        <img src="covers/8.jpg" alt="1">
+                        <span class="songName">Love Is Gone - Dylan Mathew and SLANDER</span>
+                        <span class="songitem">
+                            <i class="fa-solid fa-play songplay" id="7"></i>
+                        </span>
+                    </div>
+                </div>
+        </strong>
+    </div>
+    <div class="songbackground">
+
+    </div>
+    </div>
+
+    <!---------------------x-------------------------- End of Main Page ----------------------------x------------------------------>
+
+    <!------------------------------------------------ Start of Music Player ------------------------------------------------------>
+
+    <div align="center" class="bottom">
+        <input type="range" name="range" id="myprogress" min="0" max="100" value="0">
+        <div class="icons">
+            <!-- Awesome Fonts -->
+            <i class="fa-solid fa-backward" id="previous"></i>
+            <i class="fa-solid fa-play" id="masterPlay"></i>
+            <i class="fa-solid fa-forward" id="next"></i>
+        </div>
+        <div class="gifinfo">
+            <img src="playing.gif" alt="gif" width="120px" height="20px" id="gif"> <span id="masterSongName">Jhoom - Ali
+                Zafar</span>
+        </div>
+    </div>
+    <!----------------------x-------------------------- End of Music Player ------------------------x------------------------------>
+    <script src="https://kit.fontawesome.com/8eeeb8c955.js" crossorigin="anonymous"></script>
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
